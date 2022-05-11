@@ -1,0 +1,14 @@
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\AcmeAccounting\AcmeAccounting\bin\Debug\netcoreapp3.1\AcmeAccounting.exe
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\AcmeAccounting\AcmeAccounting\bin\Debug\netcoreapp3.1\AcmeAccounting.deps.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\AcmeAccounting\AcmeAccounting\bin\Debug\netcoreapp3.1\AcmeAccounting.runtimeconfig.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\AcmeAccounting\AcmeAccounting\bin\Debug\netcoreapp3.1\AcmeAccounting.runtimeconfig.dev.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\AcmeAccounting\AcmeAccounting\bin\Debug\netcoreapp3.1\AcmeAccounting.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\AcmeAccounting\AcmeAccounting\bin\Debug\netcoreapp3.1\AcmeAccounting.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.csproj.AssemblyReference.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.AssemblyInfoInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.AssemblyInfo.cs
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.csproj.CoreCompileInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\AcmeAccounting\AcmeAccounting\obj\Debug\netcoreapp3.1\AcmeAccounting.genruntimeconfig.cache
