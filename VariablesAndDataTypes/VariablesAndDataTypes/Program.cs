@@ -48,6 +48,31 @@ namespace VariablesAndDataTypes
 
             Console.WriteLine(questionMark);
             Console.ReadLine();
+
+            int num1 = 10;
+            int num2 = 22;
+            int sum = num1 + num2;
+            Console.WriteLine(sum);
+
+            int num3 = 4;
+            int num4 = 6;
+            int difference = num3 - num4;
+            Console.WriteLine(difference);
+
+            int num5 = 8;
+            int num6 = 23;
+            int product = num5 * num6;
+            Console.WriteLine(product);
+
+            int num7 = 38;
+            int num8 = 3;
+            int quotient = num7 / num8;
+            Console.WriteLine(quotient);
+
+            int num99 = 99;
+            string myName2 = "Matt";
+            string NameNum = num99 + myName;
+            Console.WriteLine(NameNum);
         }
     }
 }
