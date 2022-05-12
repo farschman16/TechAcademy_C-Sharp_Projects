@@ -1,0 +1,14 @@
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\MathAndComparisonOperators\AnonymousIncomeProgram\bin\Debug\netcoreapp3.1\AnonymousIncomeProgram.exe
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\MathAndComparisonOperators\AnonymousIncomeProgram\bin\Debug\netcoreapp3.1\AnonymousIncomeProgram.deps.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\MathAndComparisonOperators\AnonymousIncomeProgram\bin\Debug\netcoreapp3.1\AnonymousIncomeProgram.runtimeconfig.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\MathAndComparisonOperators\AnonymousIncomeProgram\bin\Debug\netcoreapp3.1\AnonymousIncomeProgram.runtimeconfig.dev.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\MathAndComparisonOperators\AnonymousIncomeProgram\bin\Debug\netcoreapp3.1\AnonymousIncomeProgram.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\MathAndComparisonOperators\AnonymousIncomeProgram\bin\Debug\netcoreapp3.1\AnonymousIncomeProgram.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\MathAndComparisonOperators\AnonymousIncomeProgram\obj\Debug\netcoreapp3.1\AnonymousIncomeProgram.csproj.AssemblyReference.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\MathAndComparisonOperators\AnonymousIncomeProgram\obj\Debug\netcoreapp3.1\AnonymousIncomeProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\MathAndComparisonOperators\AnonymousIncomeProgram\obj\Debug\netcoreapp3.1\AnonymousIncomeProgram.AssemblyInfoInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\MathAndComparisonOperators\AnonymousIncomeProgram\obj\Debug\netcoreapp3.1\AnonymousIncomeProgram.AssemblyInfo.cs
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\MathAndComparisonOperators\AnonymousIncomeProgram\obj\Debug\netcoreapp3.1\AnonymousIncomeProgram.csproj.CoreCompileInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\MathAndComparisonOperators\AnonymousIncomeProgram\obj\Debug\netcoreapp3.1\AnonymousIncomeProgram.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\MathAndComparisonOperators\AnonymousIncomeProgram\obj\Debug\netcoreapp3.1\AnonymousIncomeProgram.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\MathAndComparisonOperators\AnonymousIncomeProgram\obj\Debug\netcoreapp3.1\AnonymousIncomeProgram.genruntimeconfig.cache

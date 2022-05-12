@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathAndComparisonOperators", "MathAndComparisonOperators\MathAndComparisonOperators.csproj", "{5C6E4186-7153-4F9A-891F-51EB5CE8B5AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousIncomeProgram", "AnonymousIncomeProgram\AnonymousIncomeProgram.csproj", "{F7DA3B2C-F8B2-45D6-969D-299CE14DAE40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5C6E4186-7153-4F9A-891F-51EB5CE8B5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C6E4186-7153-4F9A-891F-51EB5CE8B5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C6E4186-7153-4F9A-891F-51EB5CE8B5AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7DA3B2C-F8B2-45D6-969D-299CE14DAE40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DA3B2C-F8B2-45D6-969D-299CE14DAE40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DA3B2C-F8B2-45D6-969D-299CE14DAE40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DA3B2C-F8B2-45D6-969D-299CE14DAE40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
