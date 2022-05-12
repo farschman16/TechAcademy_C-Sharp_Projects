@@ -1,0 +1,14 @@
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\VariablesAndDataTypes\VariablesAndDataTypes\bin\Debug\netcoreapp3.1\VariablesAndDataTypes.exe
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\VariablesAndDataTypes\VariablesAndDataTypes\bin\Debug\netcoreapp3.1\VariablesAndDataTypes.deps.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\VariablesAndDataTypes\VariablesAndDataTypes\bin\Debug\netcoreapp3.1\VariablesAndDataTypes.runtimeconfig.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\VariablesAndDataTypes\VariablesAndDataTypes\bin\Debug\netcoreapp3.1\VariablesAndDataTypes.runtimeconfig.dev.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\VariablesAndDataTypes\VariablesAndDataTypes\bin\Debug\netcoreapp3.1\VariablesAndDataTypes.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\VariablesAndDataTypes\VariablesAndDataTypes\bin\Debug\netcoreapp3.1\VariablesAndDataTypes.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\VariablesAndDataTypes\VariablesAndDataTypes\obj\Debug\netcoreapp3.1\VariablesAndDataTypes.csproj.AssemblyReference.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\VariablesAndDataTypes\VariablesAndDataTypes\obj\Debug\netcoreapp3.1\VariablesAndDataTypes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\VariablesAndDataTypes\VariablesAndDataTypes\obj\Debug\netcoreapp3.1\VariablesAndDataTypes.AssemblyInfoInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\VariablesAndDataTypes\VariablesAndDataTypes\obj\Debug\netcoreapp3.1\VariablesAndDataTypes.AssemblyInfo.cs
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\VariablesAndDataTypes\VariablesAndDataTypes\obj\Debug\netcoreapp3.1\VariablesAndDataTypes.csproj.CoreCompileInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\VariablesAndDataTypes\VariablesAndDataTypes\obj\Debug\netcoreapp3.1\VariablesAndDataTypes.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\VariablesAndDataTypes\VariablesAndDataTypes\obj\Debug\netcoreapp3.1\VariablesAndDataTypes.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\VariablesAndDataTypes\VariablesAndDataTypes\obj\Debug\netcoreapp3.1\VariablesAndDataTypes.genruntimeconfig.cache
