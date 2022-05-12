@@ -19,8 +19,9 @@ namespace DailyReport
             int pageNum = Convert.ToInt32(pageNumber); //converts from string to integer
 
             Console.WriteLine("Do you need help with anything? \n Please answer \"True\" or \"False\".");
-            string needHelp = Console.ReadLine(); //could also be a bool function with different string WriteLine for each
-            Console.WriteLine("You've answered " + needHelp + " to needing additional help at this time.");
+            string needHelp = Console.ReadLine();
+            bool needHelpBool = Convert.ToBoolean(needHelp);
+            Console.WriteLine("You've answered " + needHelpBool + " to needing additional help at this time.");
 
             Console.WriteLine("Were there any positive experiences you'd like to share? \n Please give specifics.");
             string posEx = Console.ReadLine();
