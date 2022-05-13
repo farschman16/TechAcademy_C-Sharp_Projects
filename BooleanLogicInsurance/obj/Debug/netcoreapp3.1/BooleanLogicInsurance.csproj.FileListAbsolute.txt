@@ -1,0 +1,14 @@
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BooleanLogicInsurance\obj\Debug\netcoreapp3.1\BooleanLogicInsurance.csproj.AssemblyReference.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BooleanLogicInsurance\obj\Debug\netcoreapp3.1\BooleanLogicInsurance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BooleanLogicInsurance\obj\Debug\netcoreapp3.1\BooleanLogicInsurance.AssemblyInfoInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BooleanLogicInsurance\obj\Debug\netcoreapp3.1\BooleanLogicInsurance.AssemblyInfo.cs
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BooleanLogicInsurance\obj\Debug\netcoreapp3.1\BooleanLogicInsurance.csproj.CoreCompileInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BooleanLogicInsurance\bin\Debug\netcoreapp3.1\BooleanLogicInsurance.exe
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BooleanLogicInsurance\bin\Debug\netcoreapp3.1\BooleanLogicInsurance.deps.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BooleanLogicInsurance\bin\Debug\netcoreapp3.1\BooleanLogicInsurance.runtimeconfig.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BooleanLogicInsurance\bin\Debug\netcoreapp3.1\BooleanLogicInsurance.runtimeconfig.dev.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BooleanLogicInsurance\bin\Debug\netcoreapp3.1\BooleanLogicInsurance.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BooleanLogicInsurance\bin\Debug\netcoreapp3.1\BooleanLogicInsurance.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BooleanLogicInsurance\obj\Debug\netcoreapp3.1\BooleanLogicInsurance.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BooleanLogicInsurance\obj\Debug\netcoreapp3.1\BooleanLogicInsurance.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BooleanLogicInsurance\obj\Debug\netcoreapp3.1\BooleanLogicInsurance.genruntimeconfig.cache
