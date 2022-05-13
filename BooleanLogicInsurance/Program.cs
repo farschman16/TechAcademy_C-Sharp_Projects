@@ -13,7 +13,7 @@ namespace BooleanLogicInsurance
             Console.WriteLine("Your age is " + personAgeInt); //writes their response in console
 
             Console.WriteLine("Have you ever had a DUI? (please answer \"yes\" or \"no\"");
-            string personDUI = Console.ReadLine();
+            string personDUI = Console.ReadLine(); //this could also be written as a boolean: bool personDUI = Convert.ToBoolean(Console.ReadLine());
             Console.WriteLine("You answered " + personDUI);
 
             Console.WriteLine("How many speeding tickets do you have?");
