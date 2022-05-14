@@ -1,0 +1,14 @@
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BranchingPackageAssignment\bin\Debug\netcoreapp3.1\BranchingPackageAssignment.exe
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BranchingPackageAssignment\bin\Debug\netcoreapp3.1\BranchingPackageAssignment.deps.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BranchingPackageAssignment\bin\Debug\netcoreapp3.1\BranchingPackageAssignment.runtimeconfig.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BranchingPackageAssignment\bin\Debug\netcoreapp3.1\BranchingPackageAssignment.runtimeconfig.dev.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BranchingPackageAssignment\bin\Debug\netcoreapp3.1\BranchingPackageAssignment.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BranchingPackageAssignment\bin\Debug\netcoreapp3.1\BranchingPackageAssignment.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BranchingPackageAssignment\obj\Debug\netcoreapp3.1\BranchingPackageAssignment.csproj.AssemblyReference.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BranchingPackageAssignment\obj\Debug\netcoreapp3.1\BranchingPackageAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BranchingPackageAssignment\obj\Debug\netcoreapp3.1\BranchingPackageAssignment.AssemblyInfoInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BranchingPackageAssignment\obj\Debug\netcoreapp3.1\BranchingPackageAssignment.AssemblyInfo.cs
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BranchingPackageAssignment\obj\Debug\netcoreapp3.1\BranchingPackageAssignment.csproj.CoreCompileInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BranchingPackageAssignment\obj\Debug\netcoreapp3.1\BranchingPackageAssignment.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BranchingPackageAssignment\obj\Debug\netcoreapp3.1\BranchingPackageAssignment.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\BranchingPackageAssignment\obj\Debug\netcoreapp3.1\BranchingPackageAssignment.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Branching\bin\Debug\netcoreapp3.1\Branching.exe
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Branching\bin\Debug\netcoreapp3.1\Branching.deps.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Branching\bin\Debug\netcoreapp3.1\Branching.runtimeconfig.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Branching\bin\Debug\netcoreapp3.1\Branching.runtimeconfig.dev.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Branching\bin\Debug\netcoreapp3.1\Branching.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Branching\bin\Debug\netcoreapp3.1\Branching.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Branching\obj\Debug\netcoreapp3.1\Branching.csproj.AssemblyReference.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Branching\obj\Debug\netcoreapp3.1\Branching.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Branching\obj\Debug\netcoreapp3.1\Branching.AssemblyInfoInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Branching\obj\Debug\netcoreapp3.1\Branching.AssemblyInfo.cs
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Branching\obj\Debug\netcoreapp3.1\Branching.csproj.CoreCompileInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Branching\obj\Debug\netcoreapp3.1\Branching.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Branching\obj\Debug\netcoreapp3.1\Branching.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Branching\obj\Debug\netcoreapp3.1\Branching.genruntimeconfig.cache

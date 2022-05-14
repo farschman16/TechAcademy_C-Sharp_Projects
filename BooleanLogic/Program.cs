@@ -27,6 +27,33 @@ namespace BooleanLogic
             Console.WriteLine(false ^ false);
 
             Console.ReadLine();
+
+            string name1 = "Jeb";
+            if (name1 == "Steve")
+            {
+                Console.WriteLine("your name is not Matt");
+            }
+            else if (name1 == "Carl")
+            {
+                Console.WriteLine("you are a Carl");
+            }
+            else if (name1 == "Matt")
+            {
+                Console.WriteLine("hello, Matt.");
+            }
+            else
+            {
+                Console.WriteLine("Who the hell are you?");
+            }
+
+            if (1 != 2)
+            {
+                Console.WriteLine("Obviously.");
+            }
+            else
+            {
+                Console.WriteLine("please help.");
+            }
         }
     }
 }
