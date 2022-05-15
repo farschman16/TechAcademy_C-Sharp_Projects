@@ -1,0 +1,14 @@
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\ArraySubmissionAssignment\bin\Debug\netcoreapp3.1\ArraySubmissionAssignment.exe
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\ArraySubmissionAssignment\bin\Debug\netcoreapp3.1\ArraySubmissionAssignment.deps.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\ArraySubmissionAssignment\bin\Debug\netcoreapp3.1\ArraySubmissionAssignment.runtimeconfig.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\ArraySubmissionAssignment\bin\Debug\netcoreapp3.1\ArraySubmissionAssignment.runtimeconfig.dev.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\ArraySubmissionAssignment\bin\Debug\netcoreapp3.1\ArraySubmissionAssignment.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\ArraySubmissionAssignment\bin\Debug\netcoreapp3.1\ArraySubmissionAssignment.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\ArraySubmissionAssignment\obj\Debug\netcoreapp3.1\ArraySubmissionAssignment.csproj.AssemblyReference.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\ArraySubmissionAssignment\obj\Debug\netcoreapp3.1\ArraySubmissionAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\ArraySubmissionAssignment\obj\Debug\netcoreapp3.1\ArraySubmissionAssignment.AssemblyInfoInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\ArraySubmissionAssignment\obj\Debug\netcoreapp3.1\ArraySubmissionAssignment.AssemblyInfo.cs
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\ArraySubmissionAssignment\obj\Debug\netcoreapp3.1\ArraySubmissionAssignment.csproj.CoreCompileInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\ArraySubmissionAssignment\obj\Debug\netcoreapp3.1\ArraySubmissionAssignment.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\ArraySubmissionAssignment\obj\Debug\netcoreapp3.1\ArraySubmissionAssignment.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\ArraySubmissionAssignment\obj\Debug\netcoreapp3.1\ArraySubmissionAssignment.genruntimeconfig.cache
