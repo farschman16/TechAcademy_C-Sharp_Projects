@@ -1,0 +1,14 @@
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\WhileLoop\bin\Debug\netcoreapp3.1\WhileLoop.exe
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\WhileLoop\bin\Debug\netcoreapp3.1\WhileLoop.deps.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\WhileLoop\bin\Debug\netcoreapp3.1\WhileLoop.runtimeconfig.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\WhileLoop\bin\Debug\netcoreapp3.1\WhileLoop.runtimeconfig.dev.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\WhileLoop\bin\Debug\netcoreapp3.1\WhileLoop.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\WhileLoop\bin\Debug\netcoreapp3.1\WhileLoop.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\WhileLoop\obj\Debug\netcoreapp3.1\WhileLoop.csproj.AssemblyReference.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\WhileLoop\obj\Debug\netcoreapp3.1\WhileLoop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\WhileLoop\obj\Debug\netcoreapp3.1\WhileLoop.AssemblyInfoInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\WhileLoop\obj\Debug\netcoreapp3.1\WhileLoop.AssemblyInfo.cs
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\WhileLoop\obj\Debug\netcoreapp3.1\WhileLoop.csproj.CoreCompileInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\WhileLoop\obj\Debug\netcoreapp3.1\WhileLoop.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\WhileLoop\obj\Debug\netcoreapp3.1\WhileLoop.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\WhileLoop\obj\Debug\netcoreapp3.1\WhileLoop.genruntimeconfig.cache
