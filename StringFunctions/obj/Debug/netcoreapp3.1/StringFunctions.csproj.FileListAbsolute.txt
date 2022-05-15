@@ -1,0 +1,14 @@
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\StringFunctions\bin\Debug\netcoreapp3.1\StringFunctions.exe
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\StringFunctions\bin\Debug\netcoreapp3.1\StringFunctions.deps.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\StringFunctions\bin\Debug\netcoreapp3.1\StringFunctions.runtimeconfig.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\StringFunctions\bin\Debug\netcoreapp3.1\StringFunctions.runtimeconfig.dev.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\StringFunctions\bin\Debug\netcoreapp3.1\StringFunctions.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\StringFunctions\bin\Debug\netcoreapp3.1\StringFunctions.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\StringFunctions\obj\Debug\netcoreapp3.1\StringFunctions.csproj.AssemblyReference.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\StringFunctions\obj\Debug\netcoreapp3.1\StringFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\StringFunctions\obj\Debug\netcoreapp3.1\StringFunctions.AssemblyInfoInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\StringFunctions\obj\Debug\netcoreapp3.1\StringFunctions.AssemblyInfo.cs
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\StringFunctions\obj\Debug\netcoreapp3.1\StringFunctions.csproj.CoreCompileInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\StringFunctions\obj\Debug\netcoreapp3.1\StringFunctions.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\StringFunctions\obj\Debug\netcoreapp3.1\StringFunctions.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\StringFunctions\obj\Debug\netcoreapp3.1\StringFunctions.genruntimeconfig.cache
