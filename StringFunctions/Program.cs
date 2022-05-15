@@ -31,16 +31,16 @@ namespace StringFunctions
             string string2 = "I play hockey in Columbus, Ohio";
             string string3 = "...but not for the Blue Jackets. Sad face.";
 
-            string stringFull = string1 + string2 + string3;
-            Console.WriteLine(stringFull);
+            string stringFull = string1 + string2 + string3; //this concatenates all the lines
+            Console.WriteLine(stringFull); //write the new concatenated string
             Console.ReadLine();
 
             string states = "Oh, Ak, Mi, De, Va...";
-            states = states.ToUpper();
+            states = states.ToUpper(); //converts all to uppercase
             Console.WriteLine(states);
             Console.ReadLine();
 
-            StringBuilder newBuild = new StringBuilder();
+            StringBuilder newBuild = new StringBuilder(); //creates a new stringbuilder called "newBuild"
             newBuild.Append("This is how you build a string through StringBuilder. ");
             newBuild.Append("At least I think this is how it works. ");
             newBuild.Append("We will find out when I debug this thing. ");
