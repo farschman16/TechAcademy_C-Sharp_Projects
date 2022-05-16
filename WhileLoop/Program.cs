@@ -43,6 +43,17 @@ namespace WhileLoop
             while (!isGuessed); //"While the variable 'isGuessed' is false..." -this is changed to true when the correct answer is chosen.
 
             Console.ReadLine();
+
+
+            //simple while loop
+
+            int i = 0; //gives the variable i a value of 0
+            while (i < 20) //initiates a while loop, and sets the parameters as i being less than 20
+            {
+                Console.WriteLine(i); //writes the value of i every time the loop is executed
+                i++; //increases the value of i by 1 every time the loop executes. Once the loop goes through engough times to make i = 20, it exits the loop and continues the program.
+            }
+            Console.ReadLine();
         }
     }
 }
