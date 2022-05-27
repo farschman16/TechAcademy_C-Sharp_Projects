@@ -1,0 +1,14 @@
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\SixPartAssignment\bin\Debug\netcoreapp3.1\SixPartAssignment.exe
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\SixPartAssignment\bin\Debug\netcoreapp3.1\SixPartAssignment.deps.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\SixPartAssignment\bin\Debug\netcoreapp3.1\SixPartAssignment.runtimeconfig.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\SixPartAssignment\bin\Debug\netcoreapp3.1\SixPartAssignment.runtimeconfig.dev.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\SixPartAssignment\bin\Debug\netcoreapp3.1\SixPartAssignment.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\SixPartAssignment\bin\Debug\netcoreapp3.1\SixPartAssignment.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\SixPartAssignment\obj\Debug\netcoreapp3.1\SixPartAssignment.csproj.AssemblyReference.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\SixPartAssignment\obj\Debug\netcoreapp3.1\SixPartAssignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\SixPartAssignment\obj\Debug\netcoreapp3.1\SixPartAssignment.AssemblyInfoInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\SixPartAssignment\obj\Debug\netcoreapp3.1\SixPartAssignment.AssemblyInfo.cs
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\SixPartAssignment\obj\Debug\netcoreapp3.1\SixPartAssignment.csproj.CoreCompileInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\SixPartAssignment\obj\Debug\netcoreapp3.1\SixPartAssignment.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\SixPartAssignment\obj\Debug\netcoreapp3.1\SixPartAssignment.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\SixPartAssignment\obj\Debug\netcoreapp3.1\SixPartAssignment.genruntimeconfig.cache
