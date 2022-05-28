@@ -78,13 +78,13 @@ namespace SixPartAssignment
             List<string> stringList2 = new List<string> { "Avalanche", "Blue Jackets", "Red Wings", "Blues", "Flames", "Blue Jackets" };
             Console.WriteLine("What is your favorite NHL team?");
             string strSelect = (Console.ReadLine()); //accepts the user's input
-            if (Convert.ToInt32(strSelect) > 5) //uses integer to check index of string
+            if (stringList2.Contains(strSelect) == true) //condition to check if the selection is in the list
             {
-                Console.WriteLine("indexes above 5 do not exist."); //this list only has indexes 0 through 5, nothing above 4 will print a value
+                Console.WriteLine(stringList.IndexOf(strSelect)); //This will write the index of the user's selection
             }
             else
             {
-                Console.WriteLine("{0}", stringList2.IndexOf(strSelect));
+                Console.WriteLine("Your selection is not in this list"); //if the selection is not in the list, it will write this line to the user
             }
             Console.ReadLine();
 
