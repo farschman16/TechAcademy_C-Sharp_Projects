@@ -8,7 +8,7 @@ namespace ExceptionHandling
         {
             try
             {
-                Console.WriteLine("Pick a number.");
+                Console.WriteLine("Pick a number."); //this function creates three integers, the first two used to calculate with each other, the third is the result
                 int numberOne = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Pick a second number.");
                 int numberTwo = Convert.ToInt32(Console.ReadLine());
@@ -19,9 +19,20 @@ namespace ExceptionHandling
             }
             catch (FormatException ex)
             {
+                Console.WriteLine(ex.Message); //instead of "ex.Message", you can put in your own error in quotation marks.
+            }
+            catch (DivideByZeroException ex) //divide by zero exception
+            {
+                Console.WriteLine("You cannot divide by zero, dummy.");
+            }
+            catch (Exception ex)
+            {
                 Console.WriteLine(ex.Message);
             }
-            Console.ReadLine();
+            finally //this is what will run no matter what. Even if the try executes with no exceptions or with exceptions
+            {
+                Console.ReadLine();
+            }
         }   
     }
 }

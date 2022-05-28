@@ -1,0 +1,14 @@
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Strings_Integers_Assignment\bin\Debug\netcoreapp3.1\Strings_Integers_Assignment.exe
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Strings_Integers_Assignment\bin\Debug\netcoreapp3.1\Strings_Integers_Assignment.deps.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Strings_Integers_Assignment\bin\Debug\netcoreapp3.1\Strings_Integers_Assignment.runtimeconfig.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Strings_Integers_Assignment\bin\Debug\netcoreapp3.1\Strings_Integers_Assignment.runtimeconfig.dev.json
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Strings_Integers_Assignment\bin\Debug\netcoreapp3.1\Strings_Integers_Assignment.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Strings_Integers_Assignment\bin\Debug\netcoreapp3.1\Strings_Integers_Assignment.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Strings_Integers_Assignment\obj\Debug\netcoreapp3.1\Strings_Integers_Assignment.csproj.AssemblyReference.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Strings_Integers_Assignment\obj\Debug\netcoreapp3.1\Strings_Integers_Assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Strings_Integers_Assignment\obj\Debug\netcoreapp3.1\Strings_Integers_Assignment.AssemblyInfoInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Strings_Integers_Assignment\obj\Debug\netcoreapp3.1\Strings_Integers_Assignment.AssemblyInfo.cs
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Strings_Integers_Assignment\obj\Debug\netcoreapp3.1\Strings_Integers_Assignment.csproj.CoreCompileInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Strings_Integers_Assignment\obj\Debug\netcoreapp3.1\Strings_Integers_Assignment.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Strings_Integers_Assignment\obj\Debug\netcoreapp3.1\Strings_Integers_Assignment.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\Strings_Integers_Assignment\obj\Debug\netcoreapp3.1\Strings_Integers_Assignment.genruntimeconfig.cache
