@@ -80,16 +80,15 @@ namespace SixPartAssignment
             string strSelect = (Console.ReadLine()); //accepts the user's input
             if (stringList2.Contains(strSelect) == true) //condition to check if the selection is in the list
             {
-                int j = 0;
-                foreach (string strSelect2 in stringList2)
-                    if (strSelect2 == stringList2[j])
+
+                for (int j = 0; j < stringList2.Count; j++) //starts loop at index 0, continues through full list. lists use .Count, not .Length
                 {
-                    Console.WriteLine(stringList2.IndexOf(strSelect2)); //This will write the index of the user's selection
-                }
-                    else
+                    if (strSelect == stringList2[j]) //if the user's selection is in the list...
                     {
-                        break;
+                        Console.WriteLine(j); //writes the user's selection (index of)
                     }
+                }
+              
             }
             else
             {
