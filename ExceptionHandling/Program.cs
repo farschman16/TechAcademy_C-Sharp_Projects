@@ -6,7 +6,7 @@ namespace ExceptionHandling
     {
         static void Main(string[] args)
         {
-            try
+            try //basically, "try this program"
             {
                 Console.WriteLine("Pick a number."); //this function creates three integers, the first two used to calculate with each other, the third is the result
                 int numberOne = Convert.ToInt32(Console.ReadLine());
@@ -17,7 +17,7 @@ namespace ExceptionHandling
                 Console.WriteLine(numberOne + " divided by" + numberTwo + " equals " + numberThree);
                 Console.ReadLine();
             }
-            catch (FormatException ex)
+            catch (FormatException ex) //the catch lines function as a way to handle errors without system error messages
             {
                 Console.WriteLine(ex.Message); //instead of "ex.Message", you can put in your own error in quotation marks.
             }
