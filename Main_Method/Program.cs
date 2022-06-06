@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection.Metadata;
 
 namespace Main_Method
 {
@@ -10,7 +11,7 @@ namespace Main_Method
             var userInput = Convert.ToInt32(Console.ReadLine()); //conver the user's response to an integer
 
             var AllMethodsObject = new AllMethods(); //instantiate the AllMethods class
-            var result = AllMethodsObject.getMath(userInput, 4); //creates variable "result" and calls the getAdd method (performs userInput + 4 per the method definition)
+            var result = AllMethodsObject.getMath(userInput); //creates variable "result" and calls the getAdd method (performs userInput + 4 per the method definition)
 
             Console.WriteLine(result);
             Console.ReadLine();
@@ -21,7 +22,7 @@ namespace Main_Method
             var userInput2 = Convert.ToDecimal(Console.ReadLine()); //user's input is converted to a decimal to be used by the method
 
             var AllMethodsObject2 = new AllMethods(); //instantiated the method with a new variable
-            var result2 = AllMethodsObject2.getMath(userInput2, 23); //new variable result2 takes the new instance, performs the method based on user input and "23"
+            var result2 = AllMethodsObject2.getMath(userInput2); //new variable result2 takes the new instance, performs the method based on user input and "23"
 
             Console.WriteLine(result2);
             Console.ReadLine();
@@ -32,7 +33,7 @@ namespace Main_Method
             var userInput3 = Console.ReadLine(); //no need to conver the user input to int, this is done within the method
 
             var AllMethodsObject3 = new AllMethods();
-            var result3 = AllMethodsObject3.getMath(userInput3, 6);
+            var result3 = AllMethodsObject3.getMath(userInput3);
 
             Console.WriteLine(result3);
             Console.ReadLine();
@@ -56,6 +57,15 @@ namespace Main_Method
 
             Console.WriteLine(methodResult);
             Console.ReadLine();
+
+
+            //***** This section is related to the "Method Class Submission Assignment" Page; step 281
+
+            var MethodClassObject = new MethodClass(); //instantiating the class "MethodClass"
+            MethodClassObject.VoidMethod(12, 33);
+            //MethodClassObject.VoidMethod(); current issue***
+
         }
+
     }
 }
