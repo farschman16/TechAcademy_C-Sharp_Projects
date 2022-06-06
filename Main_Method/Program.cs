@@ -62,9 +62,8 @@ namespace Main_Method
             //***** This section is related to the "Method Class Submission Assignment" Page; step 281
 
             var MethodClassObject = new MethodClass(); //instantiating the class "MethodClass"
-            MethodClassObject.VoidMethod(12, 33);
-            //MethodClassObject.VoidMethod(); current issue***
-
+            MethodClassObject.VoidMethod(12, 33); //calling function using integers
+            MethodClassObject.VoidMethod(int1: 17, int2: 18); //calling the function naming the parameters (can reverse the order this way, if needed)
         }
 
     }
