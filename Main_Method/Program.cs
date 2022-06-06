@@ -41,10 +41,18 @@ namespace Main_Method
 
             Console.WriteLine("Please enter a number, hit enter, and enter either a second number or leave blank.");
             var userNumber1 = Convert.ToInt32(Console.ReadLine());
-            var userNumber2 = Convert.ToInt32(Console.ReadLine());
 
-            var OtherMethodsObject = new OtherMethods();
-            var methodResult = OtherMethodsObject.twoInts(userNumber1, userNumber2);
+            var OtherMethodsObject = new OtherMethods(); //instantiate OtherMethods, call it "OtherMethodsObject"
+            int methodResult; //create a variable for the result of this method
+            //parse to see if input is entered, go to if/else statement
+            if (int.TryParse(Console.ReadLine(), out int userNumber2)) // if input, system assigns input to int userNumber2
+            {
+                methodResult = OtherMethodsObject.twoInts(userNumber1, userNumber2); //... and uses both inputs for this function
+            }
+            else
+            {
+                methodResult = OtherMethodsObject.twoInts(userNumber1); //if user does not enter input, use this function
+            }
 
             Console.WriteLine(methodResult);
             Console.ReadLine();

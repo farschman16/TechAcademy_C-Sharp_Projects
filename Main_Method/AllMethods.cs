@@ -6,7 +6,7 @@ namespace Main_Method
 {
     public class AllMethods
     {
-        public int getMath(int data, int value) //creates method "getAdd" and defines it as (some type of data, and a value)
+        public int getMath(int data, int value) //creates method "getMath" and defines it as (some type of data, and a value)
         {
             return data + value; //the return for this method is adding the two inputs
         }
