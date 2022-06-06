@@ -9,11 +9,17 @@ namespace Calling_Methods
 
             Console.WriteLine("What number would you like me to perform math actions on?"); //request user input
             int varSelect = Convert.ToInt32(Console.ReadLine()); //accept the user's input and convert to integer
+            var MathyObject = new Mathy(); //instantiate the Mathy class
+            var result = MathyObject.addMathy(varSelect, 4); //creates variable "result" and takes the user's input to perform the math function
+            Console.WriteLine(result);
 
-            Mathy.addMathy(); //call method "addMathy"
-            Mathy.mulitplyMathy(); //call method "multiplyMathy"
-            Mathy.divideMathy(); //call method "divideMathy"
+            //calling second method
+            var result2 = MathyObject.multiplyMathy(varSelect, 9);
+            Console.WriteLine(result2);
 
+            //calling third method
+            var result3 = MathyObject.divideMathy(varSelect, 3);
+            Console.WriteLine(result3);
             Console.ReadLine();
         }
     }

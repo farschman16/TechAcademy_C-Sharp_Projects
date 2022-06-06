@@ -36,6 +36,18 @@ namespace Main_Method
 
             Console.WriteLine(result3);
             Console.ReadLine();
+
+            //*** This section is related to the "Method Submission Assignment" Page; step 280.
+
+            Console.WriteLine("Please enter a number, hit enter, and enter either a second number or leave blank.");
+            var userNumber1 = Convert.ToInt32(Console.ReadLine());
+            var userNumber2 = Convert.ToInt32(Console.ReadLine());
+
+            var OtherMethodsObject = new OtherMethods();
+            var methodResult = OtherMethodsObject.twoInts(userNumber1, userNumber2);
+
+            Console.WriteLine(methodResult);
+            Console.ReadLine();
         }
     }
 }
