@@ -29,5 +29,23 @@ namespace TwentyOne
 
         }
         public List<Card> Cards { get; set; } //properties
+
+        public void Shuffle(int times = 1) //creating a method (sometimes called function) called "shuffle" for Deck
+        {
+            for (int i = 0; i < times; i++)
+            {
+                List<Card> TempList = new List<Card>(); //temporary list of cards
+                Random random = new Random();
+
+                while (Cards.Count > 0)
+                {
+                    int randomIndex = random.Next(0, Cards.Count); //random index between 0 and 52 (count of cards)
+                    TempList.Add(Cards[randomIndex]);
+                    Cards.RemoveAt(randomIndex);
+                }
+                Cards = TempList;
+            }
+
+        }
     }
 }
