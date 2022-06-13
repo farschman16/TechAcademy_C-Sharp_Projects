@@ -11,9 +11,9 @@ namespace EmployeeMethodsObjects
         static void Main(string[] args)
         {
             Employee emp1 = new Employee(); //"emp1" instantiated as new instance of class "Employee"
-            emp1.FirstName = "Sample";
-            emp1.LastName = "Student";
-            emp1.SayName();
+            emp1.FirstName = "Sample"; //assigns value to FirstName
+            emp1.LastName = "Student"; //assigns value to LastName
+            emp1.SayName(); //calls the method for this object instance
             Console.ReadLine();
         }
     }
