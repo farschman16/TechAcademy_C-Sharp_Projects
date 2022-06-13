@@ -10,9 +10,14 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            TwentyOneGame game = new TwentyOneGame();
-            game.Players = new List<string>() { "Matt", "Jesse", "Tony" };
+
+
+            TwentyOneGame game = new TwentyOneGame(); //new instance of TwentyOneGame called "game"
+            game.Players = new List<string>() { "Matt", "Tony", "Andy" }; //in-line initializing into the list using curly braces
             game.ListPlayers();
+            Console.ReadLine();
+
+
             Console.ReadLine();
 
             Deck deck = new Deck(); //created new deck (an instance of the deck object)
