@@ -1,0 +1,7 @@
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\EmployeeMethodsObjects\bin\Debug\EmployeeMethodsObjects.exe.config
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\EmployeeMethodsObjects\bin\Debug\EmployeeMethodsObjects.exe
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\EmployeeMethodsObjects\bin\Debug\EmployeeMethodsObjects.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\EmployeeMethodsObjects\obj\Debug\EmployeeMethodsObjects.csproj.AssemblyReference.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\EmployeeMethodsObjects\obj\Debug\EmployeeMethodsObjects.csproj.CoreCompileInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\EmployeeMethodsObjects\obj\Debug\EmployeeMethodsObjects.exe
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\EmployeeMethodsObjects\obj\Debug\EmployeeMethodsObjects.pdb
