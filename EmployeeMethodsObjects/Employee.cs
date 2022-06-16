@@ -11,7 +11,7 @@ namespace EmployeeMethodsObjects
         public int Id { get; set; }
         public override void SayName() //implementing the SayName method inside the Employee class
         {
-            base.SayName();
+            Console.WriteLine("Name: " + FirstName + " " + LastName); //defines what the method will accomplish
         }
         public void Quit() //inheriting the method "Quit" from interface "IQuittable" 
         {

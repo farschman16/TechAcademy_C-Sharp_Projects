@@ -13,7 +13,7 @@ namespace EmployeeMethodsObjects
 
         public virtual void SayName() //SayName is a method within class "Person": virtual method, can be overridden
         {
-                Console.WriteLine("Name: " + FirstName +" "+ LastName);
+                
         }
     }
 }
