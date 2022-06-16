@@ -13,5 +13,9 @@ namespace EmployeeMethodsObjects
         {
             base.SayName();
         }
+        public void Quit() //inheriting the method "Quit" from interface "IQuittable" 
+        {
+            Console.WriteLine("Employee number " + Id + " has quit."); //defining what the method will do
+        }
     }
 }

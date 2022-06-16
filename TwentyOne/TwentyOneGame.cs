@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TwentyOne
 {
-    public class TwentyOneGame : Game //putting the object "Game" after TwentyOneGame makes "Game" a superclass
+    public class TwentyOneGame : Game, IWalkAway //putting the object "Game" after TwentyOneGame makes "Game" a superclass
     {
         public override void Play() //method within "TwentyOneGame" object, must use "override" since "Play" is abstract in class "Game"
         {
@@ -14,6 +14,11 @@ namespace TwentyOne
         {
             Console.WriteLine("21 Players:");
             base.ListPlayers();
+        }
+
+        public void WalkAway(Player player) //implementing the interface "IWalkAway"
+        {
+            throw new NotImplementedException();
         }
     }
 }
