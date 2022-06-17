@@ -8,6 +8,8 @@ namespace EmployeeMethodsObjects
 {
     interface IQuittable
     {
-        void Quit();
+        int Id { get; set; } //initializing the Id field to be used by this interface
+
+        void Quit(); //creates the method "Quit()"
     }
 }
