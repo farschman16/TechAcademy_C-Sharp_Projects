@@ -40,6 +40,9 @@ namespace EmployeeMethodsObjects
 
             Console.WriteLine(emp2.Id == emp3.Id); //bool reading if the employee's Id numbers are the same
             Console.ReadLine();
+
+            Employee<string> obj1 = new Employee<string>() { "desk", "pens", "keyboard", "monitor" };
+            Employee<int> obj2 = new Employee<int>() { 4245, 3352, 2367, 1664 };
         }
     }
 }
