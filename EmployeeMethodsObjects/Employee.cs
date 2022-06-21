@@ -17,5 +17,16 @@ namespace EmployeeMethodsObjects
         {
             Console.WriteLine("Employee number " + Id + " has quit."); //defining what the method will do
         }
+        public static bool operator ==(Employee employee, Employee employee2) //overload the "==" operator
+        {
+            if (employee.Id == employee2.Id) //compares the two employee Ids to see if they are the same
+                return true;
+            else
+                return false;
+        }
+        public static bool operator !=(Employee employee, Employee employee2) //also overloading the "not equal" operator
+        {
+            return employee.Id != employee2.Id;
+        }
     }
 }
