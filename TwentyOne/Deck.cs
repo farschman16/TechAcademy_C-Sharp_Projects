@@ -9,21 +9,15 @@ namespace TwentyOne
         public Deck() //constructor goes above properties, shares name with the class = "Deck"
         {
             Cards = new List<Card>(); //refers to the property of the class: created empty list to add objects to
-            List<string> Suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" }; //first list of properties
-            List<string> Faces = new List<string>() //second list of properties
-            {
-                "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine",
-                "Ten", "Jack", "Queen", "King", "Ace"
-            };
 
-            foreach (string face in Faces) //iterate through first list (adds a face)
+            for (int i = 0; i < 13; i++) //looping through each "Face", looped using i as the integer
             {
-                foreach (string suit in Suits) //for each face, iterates through suits list and adds new card for each instance
+                for (int j = 0; j < 4; j++) //each time it loops through Face, it loops through Suit using j as the integer
                 {
-                    Card card = new Card();
-                    card.Suit = suit;
-                    card.Face = face;
-                    Cards.Add(card); //this will iterate through to add a card through both lists
+                    Card card = new Card(); //creating a new card 
+                    card.Face = (Face)i; //casting to Face (index 0 in Face is 2, so it starts with 2)
+                    card.Suit = (Suit)j; //casting to Suit (index 0 in Suit is Clubs, so starts with Clubs)
+                    Cards.Add(card); //adds the card, goes back through loop
                 }
             }
 

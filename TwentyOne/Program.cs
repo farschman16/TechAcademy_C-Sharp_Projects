@@ -17,12 +17,13 @@ namespace TwentyOne
             //game.ListPlayers();
             //Console.ReadLine();
 
-            Game game = new TwentyOneGame(); //new instance of the game
-            game.Players = new List<Player>(); //instantiates the list "Players"
-            Player player = new Player();
-            player.Name = "Jesse";
-            game += player; //same as "game = game + player;
-            game -= player; //same as "game = game - player;
+            //Game game = new TwentyOneGame(); //new instance of the game
+            //game.Players = new List<Player>(); //instantiates the list "Players"
+            //Player player = new Player();
+            //player.Name = "Jesse";
+            //game += player; //same as "game = game + player;
+            //game -= player; //same as "game = game - player;
+
 
             Deck deck = new Deck(); //created new deck (an instance of the deck object)
             deck.Shuffle(3); //takes this deck and returns the Shuffled deck to it - calls the method "Shuffle"
