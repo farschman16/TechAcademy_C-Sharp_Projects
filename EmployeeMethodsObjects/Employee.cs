@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace EmployeeMethodsObjects
 {
-    public class Employee<T> : Person, IQuittable
+    public class Employee : Person, IQuittable
     {
         public int Id { get; set; }
-        public List<T> things = new List<T>();
+
         public override void SayName() //implementing the SayName method inside the Employee class
         {
             Console.WriteLine("Name: " + FirstName + " " + LastName); //defines what the method will accomplish
@@ -31,4 +31,10 @@ namespace EmployeeMethodsObjects
         }
 
     }
+
+    public class Employee<T>
+    {
+        public List<T> things = new List<T>();
+    }
+        
 }

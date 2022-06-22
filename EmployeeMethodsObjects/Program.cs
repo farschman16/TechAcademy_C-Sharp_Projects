@@ -41,8 +41,19 @@ namespace EmployeeMethodsObjects
             Console.WriteLine(emp2.Id == emp3.Id); //bool reading if the employee's Id numbers are the same
             Console.ReadLine();
 
-            Employee<string> obj1 = new Employee<string>() { "desk", "pens", "keyboard", "monitor" };
-            Employee<int> obj2 = new Employee<int>() { 4245, 3352, 2367, 1664 };
+            Employee<string> obj1 = new Employee<string>(); //new instance of generic Employee, assign list to obj1
+            obj1.things = new List<string>(){ "desk", "pens", "keyboard", "monitor" };
+            for (int i = 0; i < obj1.things.Count; i++) //create integer i, when loop is less than the length of the list, add 1 after writing line
+            {
+                Console.WriteLine(obj1.things[i]); //writes the object within generic Employee class called "things"
+            }
+            Employee<int> obj2 = new Employee<int>(); //integer instance of generic Employee, assign list to obj2
+            obj2.things = new List<int> { 4245, 3352, 2367, 1664 };
+            for (int j = 0; j < obj2.things.Count; j++) //create j at 0, while j is less than the length of the list, write line and then add 1 to j
+            {
+                Console.WriteLine(obj2.things[j]);
+            }
+            Console.ReadLine();
         }
     }
 }
