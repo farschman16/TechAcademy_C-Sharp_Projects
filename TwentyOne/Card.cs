@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TwentyOne
 {
-    public class Card
+    public struct Card
     {
 
         public Suit Suit { get; set; } //Card class has a public (accessible to other parts of the probram) data type of string named Suit

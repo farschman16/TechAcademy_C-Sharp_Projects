@@ -14,7 +14,7 @@ namespace EmployeeMethodsObjects
             {
                 FirstName = "Sample", //assigns value to FirstName
                 LastName = "Student" //assigns value to LastName
-            }; 
+            };
             emp1.SayName(); //calls the method for this object instance
             Console.ReadLine();
 
@@ -42,7 +42,7 @@ namespace EmployeeMethodsObjects
             Console.ReadLine();
 
             Employee<string> obj1 = new Employee<string>(); //new instance of generic Employee, assign list to obj1
-            obj1.things = new List<string>(){ "desk", "pens", "keyboard", "monitor" }; //using "things" from generic employee class
+            obj1.things = new List<string>() { "desk", "pens", "keyboard", "monitor" }; //using "things" from generic employee class
             for (int i = 0; i < obj1.things.Count; i++) //create integer i, when loop is less than the length of the list, add 1 after writing line
             {
                 Console.WriteLine(obj1.things[i]); //writes the object within generic Employee class called "things"
@@ -77,7 +77,34 @@ namespace EmployeeMethodsObjects
                 Console.ReadLine();
             }
 
-        }
+            List<Employee> newList = new List<Employee> { };
+            List<Employee> employList = new List<Employee>
+            {
+                new Employee { FirstName = "Nathan", LastName = "Mackinnon", Id = 4},
+                new Employee { FirstName = "Joe", LastName = "Sakic", Id = 7},
+                new Employee { FirstName = "Joe", LastName = "Thornton", Id = 9},
+                new Employee { FirstName = "Nathan", LastName = "Gerbe", Id = 2},
+                new Employee { FirstName = "Cam", LastName = "Atkinson", Id = 13},
+                new Employee { FirstName = "Artemi", LastName = "Panarin", Id = 8},
+                new Employee { FirstName = "Peter", LastName = "Forsberg", Id = 6},
+                new Employee { FirstName = "Johnny", LastName = "Goudreau", Id = 3},
+                new Employee { FirstName = "Zach", LastName = "Werenski", Id = 10},
+                new Employee { FirstName = "Cole", LastName = "Sillinger", Id = 1},
+            };
+            foreach (Employee item in employList) while (item.FirstName == "Joe"); //foreach loop adding all players named "Joe" to new list
+            {
+                newList.Add(Employee);
+                Console.WriteLine(newList);
+            }
 
+            List<Employee> newList2 = Employee.item.Where(x => x.FirstName == "Joe").ToList(); //Lambda expression performing same task as above
+            foreach (Employee item in newList2)
+            {
+                Console.WriteLine(Employee.FirstName + Employee.LastName);
+            }
+
+            List<Employee> newList3 = Employee.item.Where(x => x.Id > 5).ToList(); //lambda expression creating new list with Employees with Id greater than 5
+            Console.WriteLine(newList3);
+        }
     }
 }

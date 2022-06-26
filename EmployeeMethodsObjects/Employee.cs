@@ -8,6 +8,7 @@ namespace EmployeeMethodsObjects
 {
     public class Employee : Person, IQuittable
     {
+
         public int Id { get; set; }
 
         public override void SayName() //implementing the SayName method inside the Employee class
