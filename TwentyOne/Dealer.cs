@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
 
 namespace TwentyOne
 {
@@ -14,7 +15,12 @@ namespace TwentyOne
         public void Deal(List<Card> Hand) //this method takes the dealt card list and adds Hand
         {
             Hand.Add(Deck.Cards.First()); //adds the first card availble in deck to Hand
-            Console.WriteLine(Deck.Cards.First().ToString() + "\n"); //writes the card being added to console
+            string card = string.Format(Deck.Cards.First().ToString() + "\n");
+            Console.WriteLine(card); //writes the card being added to console
+            using (StreamWriter file = new StreamWriter(@"C:\Users\farsc\Logs\log.txt", true))
+            {
+                file.WriteLine(card);
+            }
             Deck.Cards.RemoveAt(0); //removes first item in list from the Deck
         }
     }
