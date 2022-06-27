@@ -78,6 +78,8 @@ namespace EmployeeMethodsObjects
             }
 
             List<Employee> newList = new List<Employee> { };
+            List<Employee> newList2 = new List<Employee> { };
+            List<Employee> newList3 = new List<Employee> { };
             List<Employee> employList = new List<Employee>
             {
                 new Employee { FirstName = "Nathan", LastName = "Mackinnon", Id = 4},
@@ -91,20 +93,26 @@ namespace EmployeeMethodsObjects
                 new Employee { FirstName = "Zach", LastName = "Werenski", Id = 10},
                 new Employee { FirstName = "Cole", LastName = "Sillinger", Id = 1},
             };
-            foreach (Employee item in employList) while (item.FirstName == "Joe"); //foreach loop adding all players named "Joe" to new list
+            foreach (Employee item in employList) if (item.FirstName == "Joe") //foreach loop adding all players named "Joe" to new list
             {
-                newList.Add(Employee);
-                Console.WriteLine(newList);
+                newList.Add(item);
             }
+            Console.WriteLine(newList);
+            Console.ReadLine();
 
-            List<Employee> newList2 = Employee.item.Where(x => x.FirstName == "Joe").ToList(); //Lambda expression performing same task as above
-            foreach (Employee item in newList2)
+            foreach (Employee emp in employList.Where(y => y.FirstName == "Joe")) //Lambda expression performing same task as above
             {
-                Console.WriteLine(Employee.FirstName + Employee.LastName);
+                newList2.Add(emp);
             }
+            Console.WriteLine(newList2);
+            Console.ReadLine();
 
-            List<Employee> newList3 = Employee.item.Where(x => x.Id > 5).ToList(); //lambda expression creating new list with Employees with Id greater than 5
+            foreach (Employee emp9 in employList.Where(j => j.Id > 5)) //lambda expression creating new list with Employees with Id greater than 5
+            {
+                newList3.Add(emp9);
+            }
             Console.WriteLine(newList3);
+            Console.ReadLine();
         }
     }
 }
