@@ -24,6 +24,13 @@ namespace Struct
             }
             Console.WriteLine(File.ReadAllText(@"C:\Users\farsc\Logs\log2.txt"));
             Console.ReadLine();
+
+            Console.WriteLine(DateTime.Now);
+            Console.WriteLine("please enter a number");
+            var enterDate = Convert.ToDateTime(Console.ReadLine());
+            TimeSpan lateTime = enterDate - DateTime.Now;
+            Console.WriteLine(lateTime);
+            Console.ReadLine();
         }
     }
 }

@@ -96,22 +96,22 @@ namespace EmployeeMethodsObjects
             foreach (Employee item in employList) if (item.FirstName == "Joe") //foreach loop adding all players named "Joe" to new list
             {
                 newList.Add(item);
+                    Console.WriteLine(item.FirstName + item.LastName);
             }
-            Console.WriteLine(newList);
             Console.ReadLine();
 
             foreach (Employee emp in employList.Where(y => y.FirstName == "Joe")) //Lambda expression performing same task as above
             {
                 newList2.Add(emp);
+                Console.WriteLine(emp.FirstName + emp.LastName);
             }
-            Console.WriteLine(newList2);
             Console.ReadLine();
 
             foreach (Employee emp9 in employList.Where(j => j.Id > 5)) //lambda expression creating new list with Employees with Id greater than 5
             {
                 newList3.Add(emp9);
+                Console.WriteLine(emp9.FirstName + emp9.LastName + " " + emp9.Id);
             }
-            Console.WriteLine(newList3);
             Console.ReadLine();
         }
     }

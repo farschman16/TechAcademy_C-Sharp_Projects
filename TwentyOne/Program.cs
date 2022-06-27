@@ -11,6 +11,7 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
+            DateTime dateTime = new DateTime(1984, 8, 12, 9, 23, 44);
 
             Console.WriteLine("Welcome to the Farsch Casino. Let's start by telling me your name.");
             string playerName = Console.ReadLine();
