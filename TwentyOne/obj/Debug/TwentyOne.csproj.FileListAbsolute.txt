@@ -1,0 +1,10 @@
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\TwentyOne\bin\Debug\TwentyOne.exe.config
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\TwentyOne\bin\Debug\TwentyOne.exe
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\TwentyOne\bin\Debug\TwentyOne.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\TwentyOne\obj\Debug\TwentyOne.csproj.AssemblyReference.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\TwentyOne\obj\Debug\TwentyOne.csproj.CoreCompileInputs.cache
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\TwentyOne\obj\Debug\TwentyOne.exe
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\TwentyOne\obj\Debug\TwentyOne.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\TwentyOne\bin\Debug\Casino.dll
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\TwentyOne\bin\Debug\Casino.pdb
+C:\Users\farsc\OneDrive\Documents\GitHub\TechAcademy_C-Sharp_Projects\TwentyOne\obj\Debug\TwentyOne.csproj.CopyComplete

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwentyOne", "TwentyOne.csproj", "{48929DFA-1E89-458E-8D69-E5190CC0B1DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwentyOne", "TwentyOne.csproj", "{3B6F4F91-5649-4E5A-B91B-1BA2BDD240B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Casino", "..\Casino\Casino.csproj", "{CB8D8FEB-9B80-434F-8A9C-994C3F65368C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{48929DFA-1E89-458E-8D69-E5190CC0B1DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48929DFA-1E89-458E-8D69-E5190CC0B1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48929DFA-1E89-458E-8D69-E5190CC0B1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48929DFA-1E89-458E-8D69-E5190CC0B1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6F4F91-5649-4E5A-B91B-1BA2BDD240B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6F4F91-5649-4E5A-B91B-1BA2BDD240B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6F4F91-5649-4E5A-B91B-1BA2BDD240B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6F4F91-5649-4E5A-B91B-1BA2BDD240B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB8D8FEB-9B80-434F-8A9C-994C3F65368C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB8D8FEB-9B80-434F-8A9C-994C3F65368C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB8D8FEB-9B80-434F-8A9C-994C3F65368C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB8D8FEB-9B80-434F-8A9C-994C3F65368C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {491F5501-43C1-403E-A48B-F0E811A1317C}
+		SolutionGuid = {BB056B6B-18A5-403B-8588-5AC52D388733}
 	EndGlobalSection
 EndGlobal

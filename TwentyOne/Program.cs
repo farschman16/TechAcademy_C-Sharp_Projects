@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
+using Casino;
+using Casino.TwentyOne;
 
 namespace TwentyOne
 {
@@ -11,8 +12,6 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            DateTime dateTime = new DateTime(1984, 8, 12, 9, 23, 44);
-
             Console.WriteLine("Welcome to the Farsch Casino. Let's start by telling me your name.");
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today?");
@@ -67,6 +66,5 @@ namespace TwentyOne
             //int sum = numberList.Where(x => x > 20).Sum();
             //Console.WriteLine(sum);
         }
-
     }
 }
