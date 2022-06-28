@@ -27,8 +27,8 @@ namespace Struct
 
             Console.WriteLine(DateTime.Now);
             Console.WriteLine("please enter a number");
-            var enterDate = Convert.ToDateTime(Console.ReadLine());
-            TimeSpan lateTime = enterDate - DateTime.Now;
+            double enterDate = Convert.ToDouble(Console.ReadLine());
+            DateTime lateTime = DateTime.Now.AddHours(enterDate);
             Console.WriteLine(lateTime);
             Console.ReadLine();
         }
