@@ -31,6 +31,11 @@ namespace Struct
             DateTime lateTime = DateTime.Now.AddHours(enterDate);
             Console.WriteLine(lateTime);
             Console.ReadLine();
+
+            const string thrsHockey = "WolfPack";
+            var wedHockey = "BT5";
+            Console.WriteLine(thrsHockey + " " + wedHockey);
+            Console.ReadLine();
         }
     }
 }
