@@ -36,6 +36,29 @@ namespace Struct
             var wedHockey = "BT5";
             Console.WriteLine(thrsHockey + " " + wedHockey);
             Console.ReadLine();
+
+            try
+            {
+                Console.WriteLine("What is your age?");
+                int birthDate = (Convert.ToInt32(Console.ReadLine()) * -1); //take the person's answer, conver to negative int
+                DateTime birthYear = DateTime.Now.AddYears(birthDate); // calculates the year the person was born based on current date minus their age
+                Console.WriteLine(birthYear);
+                Console.ReadLine();
+            }
+            catch (DivideByZeroException) //can't use 0 as an answer
+            {
+                Console.WriteLine("You cannot enter 0 as your age.");
+            }
+            catch (ArgumentOutOfRangeException)
+            {
+                Console.WriteLine("Your age must be a positive number.");
+            }
+            catch
+            {
+                Console.WriteLine("An error has occurred.");
+            }
+            
+
         }
     }
 }
