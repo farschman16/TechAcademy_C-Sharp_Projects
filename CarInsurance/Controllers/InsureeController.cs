@@ -41,30 +41,63 @@ namespace CarInsurance.Controllers
             return View();
         }
 
-        public static int GetAge(DateTime birthDate)
-        {
-            using (InsuranceEntities db = new InsuranceEntities())
-            {
-                DateTime n = DateTime.Now;
-                DateTime birthDate = Convert.ToDateTime(Insuree.DateOfBirth);
-                int age = n.Year - birthDate.Year;
+        //separate method for calculating age unnecessary, commented for reference
+        //public static int GetAge(DateTime birthDate)
+        //{
+        //    using (InsuranceEntities db = new InsuranceEntities())
+        //    {
+        //        DateTime n = DateTime.Now;
+        //        DateTime birthDate = Convert.ToDateTime(Insuree.DateOfBirth);
+        //        int age = n.Year - birthDate.Year;
 
-                if (n.Month < birthDate.Month || (n.Month == birthDate.Month && n.Day < birthDate.Day))
-                    age--;
+        //        if (n.Month < birthDate.Month || (n.Month == birthDate.Month && n.Day < birthDate.Day))
+        //            age--;
 
-                return age;
-            }
+        //        return age;
+        //    }
             
-        }
-        public static int CalcRate(decimal Quote)
+        //}
+        public static int CalcRate(decimal Quote, Insuree insuree)
         {
+            int age = DateTime.Now.Year - insuree.DateOfBirth.Year;
             using (InsuranceEntities db = new InsuranceEntities())
             {
                 if (age >= 18)
                 {
                     return View(Quote + 100);
                 }
-                else (age >= 19 && age <= 25)
+                if (age >= 19 && age <= 25)
+                {
+                    return View(Quote + 50);
+                }
+                if (age >= 26)
+                {
+                    return View(Quote + 25);
+                }
+                if (insuree.CarYear < 2000 || insuree.CarYear > 2015)
+                {
+                    return View(Quote + 25);
+                }
+                if (insuree.CarMake == "Porsche" && insuree.CarModel != "911 Carrera")
+                {
+                    return View(Quote + 25);
+                }
+                if (insuree.CarMake == "Porsche" && insuree.CarModel == "911 Carrera")
+                {
+                    return View(Quote + 50);
+                }
+                if (insuree.SpeedingTickets > 0)
+                {
+                    return View(Quote + (insuree.SpeedingTickets * 10));
+                }
+                if (insuree.DUI == true)
+                {
+                    return View(Quote) * (Convert.ToDouble(1.25));
+                }
+                if (insuree.ConverageType == true)
+                {
+                    return View(Quote) * (Convert.ToDouble(1.5));
+                }
             }
                 
         }
@@ -78,7 +111,7 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
-                CalcRate();
+                insuree.Quote = CalcRate(insuree);
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
