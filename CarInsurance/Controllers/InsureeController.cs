@@ -57,47 +57,52 @@ namespace CarInsurance.Controllers
         //    }
             
         //}
-        public static int CalcRate(decimal Quote, Insuree insuree)
+        public static int CalcRate(double Quote, Insuree insuree)
         {
             int age = DateTime.Now.Year - insuree.DateOfBirth.Year;
             using (InsuranceEntities db = new InsuranceEntities())
             {
+                if (insuree.Id > 0)
+                {
+                    Quote += 50;
+                }
                 if (age >= 18)
                 {
-                    return View(Quote + 100);
+                    Quote = (Quote + 100);
                 }
                 if (age >= 19 && age <= 25)
                 {
-                    return View(Quote + 50);
+                    Quote = (Quote + 50);
                 }
                 if (age >= 26)
                 {
-                    return View(Quote + 25);
+                    Quote = (Quote + 25);
                 }
                 if (insuree.CarYear < 2000 || insuree.CarYear > 2015)
                 {
-                    return View(Quote + 25);
+                    Quote = (Quote + 25);
                 }
                 if (insuree.CarMake == "Porsche" && insuree.CarModel != "911 Carrera")
                 {
-                    return View(Quote + 25);
+                    Quote = (Quote + 25);
                 }
                 if (insuree.CarMake == "Porsche" && insuree.CarModel == "911 Carrera")
                 {
-                    return View(Quote + 50);
+                    Quote = (Quote + 50);
                 }
                 if (insuree.SpeedingTickets > 0)
                 {
-                    return View(Quote + (insuree.SpeedingTickets * 10));
+                    Quote = (Quote + (insuree.SpeedingTickets * 10));
                 }
                 if (insuree.DUI == true)
                 {
-                    return View(Quote) * (Convert.ToDouble(1.25));
+                    Quote = (Quote) * (Convert.ToDouble(1.25));
                 }
-                if (insuree.ConverageType == true)
+                if (insuree.CoverageType == true)
                 {
-                    return View(Quote) * (Convert.ToDouble(1.5));
+                    Quote = (Quote) * (Convert.ToDouble(1.5));
                 }
+                return Convert.ToInt32(Quote);
             }
                 
         }
@@ -107,11 +112,11 @@ namespace CarInsurance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,ConverageType,Quote")] Insuree insuree)
+        public ActionResult Create([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insuree insuree)
         {
             if (ModelState.IsValid)
             {
-                insuree.Quote = CalcRate(insuree);
+                insuree.Quote = CalcRate((double)insuree.Quote, insuree);
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -140,7 +145,7 @@ namespace CarInsurance.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,ConverageType,Quote")] Insuree insuree)
+        public ActionResult Edit([Bind(Include = "Id,FirstName,LastName,EmailAddress,DateOfBirth,CarYear,CarMake,CarModel,DUI,SpeedingTickets,CoverageType,Quote")] Insuree insuree)
         {
             if (ModelState.IsValid)
             {

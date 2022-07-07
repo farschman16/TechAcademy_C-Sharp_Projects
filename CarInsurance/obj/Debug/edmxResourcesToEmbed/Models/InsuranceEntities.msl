@@ -14,7 +14,7 @@
           <ScalarProperty Name="CarModel" ColumnName="CarModel" />
           <ScalarProperty Name="DUI" ColumnName="DUI" />
           <ScalarProperty Name="SpeedingTickets" ColumnName="SpeedingTickets" />
-          <ScalarProperty Name="ConverageType" ColumnName="ConverageType" />
+          <ScalarProperty Name="CoverageType" ColumnName="ConverageType" />
           <ScalarProperty Name="Quote" ColumnName="Quote" />
         </MappingFragment>
       </EntityTypeMapping>
