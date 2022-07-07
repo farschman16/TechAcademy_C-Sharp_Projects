@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using CarInsurance.Models;
+using CarInsurance.ViewModels;
 
 namespace CarInsurance.Controllers
 {
@@ -57,16 +58,12 @@ namespace CarInsurance.Controllers
         //    }
             
         //}
-        public static int CalcRate(double Quote, Insuree insuree)
+        public static decimal CalcRate(decimal quote, Insuree insuree)
         {
+            decimal Quote = 50;
             int age = DateTime.Now.Year - insuree.DateOfBirth.Year;
-            using (InsuranceEntities db = new InsuranceEntities())
             {
-                if (insuree.Id > 0)
-                {
-                    Quote += 50;
-                }
-                if (age >= 18)
+                if (age <= 18)
                 {
                     Quote = (Quote + 100);
                 }
@@ -96,13 +93,13 @@ namespace CarInsurance.Controllers
                 }
                 if (insuree.DUI == true)
                 {
-                    Quote = (Quote) * (Convert.ToDouble(1.25));
+                    Quote = Quote * 1.25M;
                 }
                 if (insuree.CoverageType == true)
                 {
-                    Quote = (Quote) * (Convert.ToDouble(1.5));
+                    Quote = Quote * 1.5M;
                 }
-                return Convert.ToInt32(Quote);
+                return Quote;
             }
                 
         }
@@ -116,7 +113,7 @@ namespace CarInsurance.Controllers
         {
             if (ModelState.IsValid)
             {
-                insuree.Quote = CalcRate((double)insuree.Quote, insuree);
+                insuree.Quote = CalcRate(insuree.Quote, insuree);
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
                 return RedirectToAction("Index");
@@ -190,5 +187,6 @@ namespace CarInsurance.Controllers
             }
             base.Dispose(disposing);
         }
+
     }
 }
