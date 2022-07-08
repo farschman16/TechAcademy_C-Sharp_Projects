@@ -17,7 +17,7 @@ namespace CarInsurance.Controllers
             {
                 var insurees = db.Insurees;
                 var insureeVms = new List<InsureeVm>();
-                foreach (var insuree in insureeVms)
+                foreach (var insuree in insurees)
                 {
                     var insureeVm = new InsureeVm();
                     insureeVm.Id = insuree.Id;

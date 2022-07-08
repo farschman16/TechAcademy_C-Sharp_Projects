@@ -1,35 +1,45 @@
-﻿@using CarInsurance.ViewModels
-@model List<InsureeVm>
+﻿@model IEnumerable<CarInsurance.ViewModels.InsureeVm>
 
-<div class="row no-gutters m-3">
-    <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
-        <div class="card-header text-center">
-            <h5 class="m-0">Licensees</h5>
-        </div>
-        <div class="card-body">
-            @foreach (var insureeVm in Model)
-            {
-                using (Html.BeginForm("Details", "Admin", FormMethod.Post))
-                {
+@{
+    ViewBag.Title = "Index";
+}
 
-                    <div class="row mb-3">
-                        <div class="col-2">
-                            @insureeVm.FirstName
-                        </div>
-                        <div class="col">
-                            @insureeVm.LastName
-                        </div>
-                        <div class="col-4">
-                            @insureeVm.EmailAddress
-                        </div>
-                        <div class="col-4">
-                            @insureeVm.Quote
-                        </div>
-                    </div>
-                }
+<h2>All Insurees</h2>
 
-            }
 
-        </div>
-    </div>
-</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmailAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Quote)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Quote)
+            </td>
+        </tr>
+    }
+
+</table>
