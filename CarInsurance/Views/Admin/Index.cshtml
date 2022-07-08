@@ -7,23 +7,23 @@
             <h5 class="m-0">Licensees</h5>
         </div>
         <div class="card-body">
-            @foreach (var insuree in Model)
+            @foreach (var insureeVm in Model)
             {
                 using (Html.BeginForm("Details", "Admin", FormMethod.Post))
                 {
 
                     <div class="row mb-3">
                         <div class="col-2">
-                            @insuree.FirstName
+                            @insureeVm.FirstName
                         </div>
                         <div class="col">
-                            @insuree.LastName
+                            @insureeVm.LastName
                         </div>
                         <div class="col-4">
-                            @insuree.EmailAddress
+                            @insureeVm.EmailAddress
                         </div>
                         <div class="col-4">
-                            @insuree.Quote
+                            @insureeVm.Quote
                         </div>
                     </div>
                 }
