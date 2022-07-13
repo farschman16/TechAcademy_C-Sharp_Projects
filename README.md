@@ -9,15 +9,14 @@ Basic C# Projects Completed Through the Tech Academy Program utilizing .NET Fram
 
 ### Newsletter App
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* This project is a datbase-first Entity Framework MVC application that mimics an online sign-up for a newsletter. This application included an admin page that gave the administrator the ability to view all current subscribers as well as option to unsubscribe a user of their choosing.
 
 ### TwentyOne Game
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+This project is a console application that utilized the .NET Framework. This application functioned as a blackjack game within the console, complete with users, a dealer with full functionality, a randomized (shuffled) card deck for each instance (hand) of the game, and exception handling for a player attempting to cheat the game.
 
 ### Car Insurance App
 
-* How to run the program
-* Step-by-step bullets
+This project is a database-first MVC application that utilizes .NET Core, Entity Framework, Bootstrap, and Razor syntax. The app allows the user to input their information including age, car year/make/model to be insured, number of speeding tickets and DUIs, and would perform business logic to calculate an insurance estimate. All this information was then stored on a database and could be queried.
+This app also featured an admin page where the administrator could view all insurees who have applied.
+
