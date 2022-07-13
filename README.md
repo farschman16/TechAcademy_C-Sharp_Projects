@@ -17,6 +17,6 @@ This project is a console application that utilized the .NET Framework. This app
 
 ### Car Insurance App
 
-This project is a database-first MVC application that utilizes .NET Core, Entity Framework, Bootstrap, and Razor syntax. The app allows the user to input their information including age, car year/make/model to be insured, number of speeding tickets and DUIs, and would perform business logic to calculate an insurance estimate. All this information was then stored on a database and could be queried.
+This project is a database-first ASP.NET MVC web application that utilizes .NET Framework, Bootstrap, and Razor syntax. The app allows the user to input their information including age, car year/make/model to be insured, number of speeding tickets and DUIs, and would perform business logic to calculate an insurance estimate. All this information was then stored on a SQL Server database.
 This app also featured an admin page where the administrator could view all insurees who have applied.
 
